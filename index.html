@@ -5,14 +5,35 @@
     <link rel="stylesheet" href="assets/css/styles.css" type"text/css">
 
     <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Your Local Weather</title>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 </head>
 
 <body>
+    <div class="titlebar-weather">
+        <h1>Weather Dashboard</h1>
+    </div>
+    <main>
+        <div class="card">
+            <h3>Search for a City:</h3>
+            <form id="searchCity" class="form-card">
+                <input name="theCity" id="theCity" type="text" autofocus="true" class="formInput" />
+                <button type="submit" class="btn">Search</button>
+            </form>
+        </div>
+    </main>
 
+    <div class="currentInfo">
+
+
+    </div>
+
+    <div class="forecast">
+
+    </div>
 
 <script src="./assets/js/script.js"></script>
 </body>
