@@ -1,1 +1,2 @@
 # city-weather
+In this assignment I am to fetch the API from the website OpenWeatherMap.org and use it to create a user friendly website that will tell the user the current date and weather as well as the future forecast.

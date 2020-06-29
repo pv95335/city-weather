@@ -44,15 +44,22 @@ var displayCity = function(city, searchTerm) {
         return;
     }
 
+    
+
 weatherContainerEl.textContent = "";
 weatherSearchTerm.textContent = searchTerm;
-//console.log(weather);
 console.log(searchTerm);
-
-//$("weather-container").appendChild("cityName")
-
 }
 
-//weatherContainerEl.addEventListener("cityName",formSubmitHandler);
+var displayWeather = function(cityResponse, searchTerm) {
+    console.log(cityResponse)
+    console.log(searchTerm)
+}
+
+
+
+//for (var i=0; i< city.length; i++) {
+    //var
+//}
 
 getCityInfo("Chicago");
